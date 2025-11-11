@@ -37,7 +37,6 @@
                 <label for="userImage">Upload de foto</label>
                 <input id="userImage" type="file" accept="image/*" name="userImage">
                 <br>
-                <button type="submit">Enviar</button>
             </form>
         </fieldset>
     
@@ -162,6 +161,19 @@
         <textarea placeholder="comentario..." id="bio" name="userBio" rows="4" cols="50"></textarea>
         <br>
     </fieldset>
+
+    <fieldset>
+        <legend>Confirmações</legend>
+
+        <input id="userLgpdTerm" type="checkbox" name="userLgpd" value="accepted" required>
+        <label for="userLgpdTerm">Eu aceito participa da Pesquisa</label>
+        <br>
+
+        <input id="getResult" type="checkbox" name="userGetResult" value="accepted">
+        <label for="getResult">desejo receber o resultado por email</label>
+    </fieldset>
+
+    <button type="submit">Enviar</button>
 </section>
 </body>
 </html>
