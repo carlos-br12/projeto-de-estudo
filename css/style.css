@@ -63,6 +63,12 @@ input[type="email"] {
     font-size: 1rem;
 }
 
+div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 button {
     background-color: #28a745;
     color: white;
