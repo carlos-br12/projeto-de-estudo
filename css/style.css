@@ -63,6 +63,14 @@ input[type="email"] {
     font-size: 1rem;
 }
 
+input:invalid, select:invalid, textarea:invalid {
+    border-color: red;
+}
+
+input:valid, select:valid, textarea:valid {
+    border-color: green;
+}
+
 div {
     display: flex;
     align-items: center;
