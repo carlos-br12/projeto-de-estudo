@@ -38,8 +38,9 @@
                 <br>
 
                 <label for="userImage">Upload de foto</label>
-                <input id="userImage" type="file" accept="image/*" name="userImage">
+                <input id="userImage" aria-describedby="imageHelpe" type="file" accept="image/*" name="userImage">
                 <br>
+                <small id="imageHelpe">Formato aceito: jpg, png, gif</small>
         </fieldset>
     
     
@@ -156,8 +157,10 @@
             </datalist>
             <br>
 
-            <label for="color">Cor favorita:</label>
-            <input list="colorOptions" id="color" type="color" name="userColor">
+            <div>
+                <label for="color">Cor favorita:</label>
+                <input list="colorOptions" id="color" type="color" name="userColor">
+            </div>
         </fieldset>
 
         <fieldset>
