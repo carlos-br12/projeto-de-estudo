@@ -40,11 +40,7 @@ fieldset {
     margin: 0 auto 20px auto;
     border-radius: 5px;
     background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
+    display: block;
 }
 
 legend {
@@ -54,13 +50,17 @@ legend {
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="email"], input[type="tel"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
+}
+
+input[type="tel"] {
+    margin-bottom: 0;
 }
 
 input:invalid, select:invalid, textarea:invalid {
