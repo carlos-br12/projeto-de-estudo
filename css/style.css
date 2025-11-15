@@ -41,10 +41,6 @@ fieldset {
     border-radius: 5px;
     background-color: #fff;
     display: block;
-    flex-direction: column;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
 }
 
 legend {
